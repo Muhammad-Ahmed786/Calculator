@@ -37,11 +37,11 @@ input {
     color: #ffffff;
 }
 
-input::placeholder{
+input::placeholder {
     color: #ffffff;
 }
 
-button{
+button {
     border: none;
     width: 60px;
     height: 60px;
@@ -54,10 +54,22 @@ button{
     cursor: pointer;
 }
 
-.equalBtn{
+button:active {
+    background-color: #afaeae;
+}
+
+.equalBtn {
     background-color: #fb7c14;
 }
 
-.operator{
+.equalBtn:active {
+    background-color: #c69704;
+}
+
+.operator {
     color: #6dee0a;
+}
+
+.operator:active {
+    background-color: #469115;
 }
